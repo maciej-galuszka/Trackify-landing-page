@@ -116,7 +116,6 @@
   flex-direction: row;
   gap: 3.6rem;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .hero-image-queries {
