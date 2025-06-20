@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trackify - your personal trainer</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <header class="section-header">
+        <a class="header-logo-link" href="#"
+          ><img src="header-logo.png" alt="trackify logo" class="header-logo"
+        /></a>
+        <nav class="header-navigation">
+          <div class="header-nav">
+            <a class="nav-link" href="#how">How it works</a>
+            <a class="nav-link" href="#plans">Workout plans</a>
+            <a class="nav-link" href="#community">Community</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-cta" href="#cta">Try for free</a>
+          </div>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+
+      <section class="section-hero">
+        <div class="hero grid grid--2-cols">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Your personal trainer. Right in your pocket.
+            </h1>
+            <p class="hero-description">
+              Track your workouts, crush your goals, and stay motivated with
+              smart insights tailored to you. Fitness made simple — anytime,
+              anywhere.
+            </p>
+            <a href="#cta" class="btn">Start working out</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+
+            <div class="hero-users-box">
+              <div class="hero-users">
+                <img class="hero-user-image" src="faces/face1.jpg" alt="trackify user" />
+                <img class="hero-user-image" src="faces/face2.jpg" alt="trackify user" />
+                <img class="hero-user-image" src="faces/face3.jpg" alt="trackify user" />
+                <img class="hero-user-image" src="faces/face4.jpg" alt="trackify user" />
+                <img class="hero-user-image" src="faces/face5.jpg" alt="trackify user" />
+                <img class="hero-user-image" src="faces/face6.jpg" alt="trackify user" />
+              </div>
+              <span class="hero-users-text"
+                ><span>1.000.000+</span> workouts tracked!</span
+              >
+            </div>
+          </div>
+          <div class="hero-image-box">
+            <img class="hero-image" src="./hero.jpg" alt="" />
+            <img class="hero-image-queries" src="hero-queries.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-brands">
+        <div class="container">
+          <p class="brands-title">COMPATIBLE WITH TOP SMARTWATCHES</p>
+          <div class="brands">
+            <img class="brand-image" src="brands/apple.png" alt="smartwatch brand" />
+            <img class="brand-image" src="brands/samsung.png" alt="smartwatch brand" />
+            <img class="brand-image" src="brands/garmin1.png" alt="smartwatch brand" />
+            <img class="brand-image" src="brands/xiaomi.png" alt="smartwatch brand" />
+            <img class="brand-image" src="brands/vivo.png" alt="smartwatch brand" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">HOW IT WORKS</span>
+          <h2 class="heading-secondary">Start working out in 3 simple steps</h2>
+        </div>
+
+        <div class="container grid grid--2-cols">
+          <div class="how-text-box">
+            <span class="how-number">01</span>
+            <h3 class="heading-tertiary">Tell us about your training goals</h3>
+            <p>
+              Based on your input, we’ll create a personalized workout and
+              nutrition plan that fits your lifestyle. All that’s left is to
+              track your progress, adjust when needed, and stay motivated as you
+              move closer to your goals.
+            </p>
+          </div>
+          <div class="how-image-box">
+            <img class="how-image" src="mockup/mockup1.png" alt="mockup from the mobile version" />
+          </div>
+
+          <div class="how-image-box">
+            <img class="how-image" src="mockup/mockup2.png" alt="mockup from the mobile version" />
+          </div>
+          <div class="how-text-box">
+            <span class="how-number">02</span>
+            <h3 class="heading-tertiary">Receive a personalized routine</h3>
+            <p>
+              Whether you want to build strength, lose weight, or improve
+              endurance, your plan will include detailed workouts and meal
+              suggestions designed to fit seamlessly into your daily routine.
+            </p>
+          </div>
+
+          <div class="how-text-box">
+            <span class="how-number">03</span>
+            <h3 class="heading-tertiary">Begin your training journey</h3>
+            <p>
+              Trackify provides step-by-step guidance for every workout. Our app
+              supports you with instructional videos, progress tracking, and
+              adaptive adjustments to ensure every session challenges you
+              appropriately and keeps you motivated along the way.
+            </p>
+          </div>
+          <div class="how-image-box">
+            <img class="how-image" src="mockup/mockup3.png" alt="mockup from the mobile version" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-workouts" id="plans">
+        <div class="container text-center">
+          <span class="subheading">WORKOUT PLANS</span>
+          <h2 class="heading-secondary">Designed by fitness professionals</h2>
+        </div>
+        <div class="container grid grid--3-cols">
+          <div class="workout-box">
+            <img src="workouts/workout1.jpg" alt="photo of a gym" />
+            <p class="workout-title">Strength & Endurance</p>
+            <ul class="workout-features">
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="barbell-sharp"></ion-icon>
+                <span class="workout-feature">Free weights</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="analytics"></ion-icon>
+                <span class="workout-feature">Compound movements</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="calendar-sharp"></ion-icon>
+                <span class="workout-feature">3 sessions per week</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="star"></ion-icon>
+                <span class="workout-feature"
+                  ><strong>4.8</strong> rating (341)</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="workout-box">
+            <img src="workouts/workout2.jpg" alt="a woman training" />
+            <p class="workout-title">Mobility & Flexibility</p>
+            <ul class="workout-features">
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="body"></ion-icon>
+                <span class="workout-feature">Bodyweight exercises</span>
+              </li>
+              <li class="features-item">
+                <ion-icon
+                  class="workout-icon"
+                  name="swap-horizontal"
+                ></ion-icon>
+                <span class="workout-feature">Resistance bands</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="calendar-sharp"></ion-icon>
+                <span class="workout-feature">5 sessions per week</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="star"></ion-icon>
+                <span class="workout-feature"
+                  ><strong>4.7</strong> rating (1283)</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="workout-box">
+            <img src="workouts/workout3.jpg" alt="a man training" />
+            <p class="workout-title">Fat Burn & Conditioning</p>
+            <ul class="workout-features">
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="fitness"></ion-icon>
+                <span class="workout-feature">HIIT training</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="refresh"></ion-icon>
+                <span class="workout-feature">Circuit training</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="calendar-sharp"></ion-icon>
+                <span class="workout-feature">4 sessions per week</span>
+              </li>
+              <li class="features-item">
+                <ion-icon class="workout-icon" name="star"></ion-icon>
+                <span class="workout-feature"
+                  ><strong>4.9</strong> rating (574)</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container all-recipes">
+          <a href="#" class="workouts-link">See all workout routines &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-community" id="community">
+        <div class="user-posts-box">
+          <div>
+            <div>
+              <span class="subheading">COMMUNITY</span>
+              <h2 class="heading-secondary">See how others train</h2>
+            </div>
+            <div class="grid grid--2-cols">
+              <div class="user-post">
+                <img src="faces/face1.jpg" alt="user profile photo" />
+                <p class="post-text">
+                  The plans are great, but what really makes Trackify stand out
+                  is the ability to share updates and get feedback.
+                </p>
+                <p class="post-name">— Liam Smith</p>
+              </div>
+              <div class="user-post">
+                <img src="faces/face2.jpg" alt="user profile photo" />
+                <p class="post-text">
+                  I’ve tried so many apps, but only Trackify makes me feel part
+                  of something bigger.
+                </p>
+                <p class="post-name">— Daniel Brown</p>
+              </div>
+              <div class="user-post">
+                <img src="faces/face3.jpg" alt="user profile photo" />
+                <p class="post-text">
+                  I never thought a fitness app could feel this personal. Seeing
+                  real people working towards their goals is great.
+                </p>
+                <p class="post-name">— Olivia Davis</p>
+              </div>
+              <div class="user-post">
+                <img src="faces/face4.jpg" alt="user profile photo" />
+                <p class="post-text">
+                  Posting my progress photos was scary at first, but the
+                  positive feedback from the community made me feel proud.
+                </p>
+                <p class="post-name">— Wilson Bryant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery grid grid--3-cols">
+          <figure class="gallery-item">
+            <img src="users/user1.jpg" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user2.png" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user3.jpg" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user4.jpg" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user5.jpg" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user6.jpg" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user7.jpg" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user8.jpg" alt="app user exercising" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="users/user9.jpg" alt="app user exercising" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container text-center">
+          <span class="subheading">PRICING</span>
+          <h2 class="heading-secondary">
+            Unlock your potential with the right plan
+          </h2>
+        </div>
+        <div class="pricing-plans grid grid--3-cols">
+          <div class="plan">
+            <p class="plan-title">STARTER</p>
+            <p class="plan-price"><span>$</span>0</p>
+            <p class="plan-subcaption">per month</p>
+            <ul class="plan-list">
+              <div>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Basic workouts</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Standard plans</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Track time & sessions</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Limited challenges</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Community access</span>
+                </li>
+              </div>
+            </ul>
+            <div class="sign-up">
+              <a href="#" class="btn btn-pricing">Start working out</a>
+            </div>
+          </div>
+          <div class="plan badge">
+            <p class="plan-title">PRO</p>
+            <p class="plan-price"><span>$ </span>9.99</p>
+            <p class="plan-subcaption">per month</p>
+            <ul class="plan-list">
+              <div>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>All Starter features</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Custom training plans</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Advanced stats</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Unlimited challenges</span>
+                </li>
+                <li>
+                  <ion-icon
+                    class="plan-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Priority support</span>
+                </li>
+              </div>
+            </ul>
+            <div class="sign-up">
+              <a href="#" class="btn btn-pricing">Start working out</a>
+            </div>
+          </div>
+          <div class="plan">
+            <p class="plan-title">ELITE</p>
+            <p class="plan-price"><span>$</span>14.99</p>
+            <p class="plan-subcaption">per month</p>
+            <ul class="plan-list">
+              <div>
+                <li>
+                  <ion-icon class="plan-icon" name="checkmark-outline"></ion-icon
+                  ><span>All Pro features</span>
+                </li>
+                <li>
+                  <ion-icon class="plan-icon" name="checkmark-outline"></ion-icon
+                  ><span>Coach consultation</span>
+                </li>
+                <li>
+                  <ion-icon class="plan-icon" name="checkmark-outline"></ion-icon
+                  ><span>Nutrition plan</span>
+                </li>
+                <li>
+                  <ion-icon class="plan-icon" name="checkmark-outline"></ion-icon
+                  ><span>Exclusive content</span>
+                </li>
+                <li>
+                  <ion-icon class="plan-icon" name="checkmark-outline"></ion-icon
+                  ><span>No ads</span>
+                </li>
+              </ul>
+              <div class="sign-up">
+                <a href="#" class="btn btn-pricing">Start working out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="subcaption text-center">
+          Prices include all applicable taxes. All three plans include the
+          following:
+        </p>
+        <div class="container grid grid--4-cols">
+          <div class="plans-feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p>Pause anytime</p>
+            <p>Pause your plan whenever you need a break — no hassle.</p>
+          </div>
+          <div class="plans-feature">
+            <ion-icon class="feature-icon" name="laptop-outline"></ion-icon>
+            <p>Cross-device sync</p>
+            <p>
+              Seamlessly access Trackify on your phone, tablet, or smartwatch.
+            </p>
+          </div>
+          <div class="plans-feature">
+            <ion-icon class="feature-icon" name="book-outline"></ion-icon>
+            <p>Workout history</p>
+            <p>
+              See all your past workouts in one place and track your progress.
+            </p>
+          </div>
+          <div class="plans-feature">
+            <ion-icon class="feature-icon" name="bar-chart-outline"></ion-icon>
+            <p>Goal tracking</p>
+            <p>Set personal fitness goals and monitor your achievements.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <p class="cta-title">Ready to take the first step?</p>
+              <p class="cta-text">
+                Get a free, no-obligation consultation with a certified trainer.
+                We’ll help you map out your fitness plan - designed just for
+                you.
+              </p>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    id="full-name"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="JohnSmith@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="fb">Facebook</option>
+                    <option value="yt">Youtube video</option>
+                    <option value="ig">Instagram</option>
+                    <option value="x">X</option>
+                    <option value="ad">Advert</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <a href="#" class="cta-btn">Start working out</a>
+              </form>
+            </div>
+            <div class="cta-image"></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container grid">
+          <div class="logo-col">
+            <a href="#"><img src="header-logo.png" alt="" /></a>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon
+                    name="logo-instagram"
+                    class="social-icon"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon name="logo-facebook" class="social-icon"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon name="logo-twitter" class="social-icon"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright © 2025 by Trackify, Inc. All rights reserved.
+            </p>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <p class="address">Złota 44, 15th Floor, 00-120 Warsaw, Poland</p>
+              <p>
+                <a class="footer-link" href="832-171-9261">415-201-6370</a
+                ><br />
+                <a class="footer-link" href="mailto:hello@trackify.com"
+                  >contact@trackify.com</a
+                >
+              </p>
+            </address>
+          </div>
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Create account</a></li>
+              <li><a class="footer-link" href="#">Sign in</a></li>
+              <li><a class="footer-link" href="#">iOS app</a></li>
+              <li><a class="footer-link" href="#">Android app</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About Trackify</a></li>
+              <li><a class="footer-link" href="#">For Business</a></li>
+              <li><a class="footer-link" href="#">Training partners</a></li>
+              <li><a class="footer-link" href="#">Careers</a></li>
+            </ul>
+          </nav>
+          <nav class="nav-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Exercises database</a></li>
+              <li><a class="footer-link" href="#">Servers status</a></li>
+              <li><a class="footer-link" href="#">Help center</a></li>
+              <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
