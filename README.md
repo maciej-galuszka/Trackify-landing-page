@@ -42,7 +42,7 @@ It presents the core features of the application, showcases workout plans, commu
 - Smooth scrolling with `scrollIntoView` & `window.scrollTo`  
 - Conditional logic with class toggles
 
-## 🎨 CSS Skills Used  
+## CSS Skills Used 🎨
 
 - Flexbox & CSS Grid for layouts  
 - Media queries for responsive breakpoints  
