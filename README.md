@@ -34,13 +34,47 @@ It presents the core features of the application, showcases workout plans, commu
 - Google Fonts (Inter)  
 - Ionicons (icons set)  
 
-## JavaScript skills used 🛠️
+## JavaScript skills 🛠️
 
 - DOM manipulation (`querySelector`, `classList.toggle`)  
 - Event handling (`click`, `scroll`)  
 - Intersection Observer API (sticky navbar effect)  
 - Smooth scrolling with `scrollIntoView` & `window.scrollTo`  
-- Conditional logic with class toggles  
+- Conditional logic with class toggles
+
+## CSS used 🎨
+
+- **Layout & Positioning**  
+  - Flexbox (hero section, navigation, workout boxes)  
+  - CSS Grid (community gallery, CTA form, footer)  
+  - Positioning: `relative`, `absolute`, `sticky`  
+
+- **Responsive Design**  
+  - Mobile-first approach  
+  - Media queries for mobile/tablet/desktop  
+  - Fluid typography & spacing with `rem` and `%`  
+
+- **Styling & Typography**  
+  - Custom fonts (Google Fonts: Inter)  
+  - Letter spacing, font-weight, and hierarchy  
+  - Hover & active states for links and buttons  
+
+- **Visual Effects**  
+  - Box shadows & hover transitions (`transition: all 0.3s ease`)  
+  - Rounded corners (`border-radius`)  
+  - Pseudo-elements (`::before`, `::after`) for decorative shapes  
+
+- **UI Components**  
+  - Sticky navigation bar  
+  - Mobile hamburger menu  
+  - Pricing cards with highlights  
+  - Call-to-action section with form  
+
+- **Imagery & Media**  
+  - Responsive images in hero & gallery  
+  - Scale & zoom effects on hover  
+  - Background images in CTA section  
+
 
 ## Code Structure 🏗️
 
