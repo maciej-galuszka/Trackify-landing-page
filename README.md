@@ -1,53 +1,60 @@
-# BMR & CPM Calculator 🔥
+# Trackify - Your Personal Trainer 💪📱
 
-BMR & CPM Calculator is a simple web application that calculates your **Basal Metabolic Rate (BMR/PPM)** and **Total Daily Energy Expenditure (TDEE/CPM)**.  
-The app lets you input your personal details, choose activity level, workout frequency, and your goal (weight loss, maintenance, or muscle gain).  
+Trackify is a modern and responsive landing page for a fitness app.  
+It presents the core features of the application, showcases workout plans, community, and pricing options, and includes smooth navigation with a sticky navbar.  
 
 ## Features ✨
 
-- BMR calculation 🧮: Computes daily basal metabolic rate based on Mifflin–St Jeor formula.  
-- TDEE calculation ⚡: Adjusts energy needs according to activity level, workouts, and goal.  
-- Goal-based results 🎯: Weight loss, maintenance, or bulking with adjusted calorie needs.  
-- Gender-specific formula 👩👨: Different equation for men and women.  
-- Dynamic UI update 📊: Results appear instantly after form submission.  
-- Error handling 🚨: Prevents form submission without required values.  
-- Simple & responsive 💻📱: Works across browsers and devices.  
+- Hero section 🏋️‍♂️: Eye-catching headline, description, and call-to-action buttons.  
+- Smooth scrolling 🎢: Clickable links scroll to corresponding sections with animation.  
+- Sticky navigation 📌: Navbar becomes fixed when scrolling past the hero section.  
+- Mobile-friendly navigation 📱: Mobile menu with toggle open/close animation.  
+- Sections included:  
+  - **How it works** (3 simple steps)  
+  - **Workout plans** (strength, mobility, fat burn)  
+  - **Community** (testimonials & gallery)  
+  - **Pricing** (Starter, Pro, Elite plans)  
+  - **CTA form** (collects user contact details)  
+  - **Footer** (company info, links, social media)  
+- Responsive design 🌐: Built with Flexbox & CSS Grid, optimized for different screen sizes.  
 
 ## Usage 🖱️
 
-1. Select gender (male/female).  
-2. Enter your weight (kg), height (cm), and age (years).  
-3. Choose activity level and workout frequency.  
-4. Select your goal:  
-   - Lose weight  
-   - Maintain weight  
-   - Gain weight  
-5. Submit the form and check your BMR (PPM) and CPM results.  
+- Use the top navigation to move between sections.  
+- On smaller screens, open the mobile menu with the hamburger icon.  
+- Scroll down to see sticky navbar in action.  
+- Explore workout plans, community posts, and pricing tiers.  
+- Submit the CTA form to sign up for a free consultation.  
 
 ## Technologies used 💻
 
-- Vanilla JavaScript (ES6+)  
-- HTML5 (form inputs, selects, radio buttons)  
-- CSS3 (basic styling, visibility toggle)  
+- HTML5  
+- CSS3 (Flexbox, Grid, Media Queries)  
+- Vanilla JavaScript (smooth scroll, mobile nav, sticky nav)  
+- Google Fonts (Inter)  
+- Ionicons (icons set)  
 
 ## JavaScript skills used 🛠️
 
-- DOM manipulation (`querySelector`, `innerHTML`, `classList`)  
-- Form handling (`submit` event, `preventDefault`)  
-- Conditional logic (`if/else`, `switch`)  
-- Arithmetic calculations (Mifflin–St Jeor formula & multipliers)  
-- String and number formatting (`Math.round`)  
+- DOM manipulation (`querySelector`, `classList.toggle`)  
+- Event handling (`click`, `scroll`)  
+- Intersection Observer API (sticky navbar effect)  
+- Smooth scrolling with `scrollIntoView` & `window.scrollTo`  
+- Conditional logic with class toggles  
 
 ## Code Structure 🏗️
 
-- **Form submission handler**: Collects all input values and prevents page reload.  
-- **BMR formula function**: Calculates PPM based on gender, weight, height, and age.  
-- **TDEE calculation**: Adjusts PPM with activity level, workouts, and goal multipliers.  
-- **UI update**: Dynamically shows calculated values and reveals results section.  
+- **index.html** → main structure of the landing page.  
+- **css/styles.css** → component-level styles.  
+- **css/general.css** → global styles, typography, utilities.  
+- **css/queries.css** → responsive breakpoints for mobile/tablet/desktop.  
+- **script.js** → mobile menu toggle, smooth scroll navigation, sticky navbar.  
 
 ## License 📄
 
 This project is open source and available under the MIT License.  
+
+---
 
 ## 📦 Getting Started
 
