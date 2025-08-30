@@ -62,8 +62,6 @@ It presents the core features of the application, showcases workout plans, commu
 
 This project is open source and available under the MIT License.  
 
----
-
 ## 📦 Getting Started
 
 To run the project locally:
