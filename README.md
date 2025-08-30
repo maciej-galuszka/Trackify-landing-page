@@ -42,39 +42,13 @@ It presents the core features of the application, showcases workout plans, commu
 - Smooth scrolling with `scrollIntoView` & `window.scrollTo`  
 - Conditional logic with class toggles
 
-## CSS used 🎨
+## 🎨 CSS Skills Used  
 
-- **Layout & Positioning**  
-  - Flexbox (hero section, navigation, workout boxes)  
-  - CSS Grid (community gallery, CTA form, footer)  
-  - Positioning: `relative`, `absolute`, `sticky`  
-
-- **Responsive Design**  
-  - Mobile-first approach  
-  - Media queries for mobile/tablet/desktop  
-  - Fluid typography & spacing with `rem` and `%`  
-
-- **Styling & Typography**  
-  - Custom fonts (Google Fonts: Inter)  
-  - Letter spacing, font-weight, and hierarchy  
-  - Hover & active states for links and buttons  
-
-- **Visual Effects**  
-  - Box shadows & hover transitions (`transition: all 0.3s ease`)  
-  - Rounded corners (`border-radius`)  
-  - Pseudo-elements (`::before`, `::after`) for decorative shapes  
-
-- **UI Components**  
-  - Sticky navigation bar  
-  - Mobile hamburger menu  
-  - Pricing cards with highlights  
-  - Call-to-action section with form  
-
-- **Imagery & Media**  
-  - Responsive images in hero & gallery  
-  - Scale & zoom effects on hover  
-  - Background images in CTA section  
-
+- Flexbox & CSS Grid for layouts  
+- Media queries for responsive breakpoints  
+- Transitions & hover effects for interactivity  
+- Sticky navigation & mobile menu styling  
+- Component-based structure (hero, plans, gallery, pricing, CTA)
 
 ## Code Structure 🏗️
 
